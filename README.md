@@ -4,7 +4,7 @@ A lightweight semantic search engine built with **Python**, **Sentence Transform
 
 The project demonstrates how text can be converted into vector embeddings and searched using **cosine similarity** instead of exact keyword matching.
 
-> **Status:** MVP — Core semantic search is implemented. Vector database integration, metadata filtering, and multilingual Arabic support are planned as next steps.
+
 
 ---
 
