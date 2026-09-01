@@ -4,7 +4,8 @@ from pydantic_settings import BaseSettings, SettingsConfigDict
 class Settings(BaseSettings):
     embedding_model: str
     top_k: int = 5
-    data_path: str
+    DATA_PATH: str
+    MAX_FILE_SIZE:int
 
     model_config = SettingsConfigDict(
         env_file=".env",
